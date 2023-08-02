@@ -456,4 +456,67 @@ margin-left: 35px;
         width: 100%;
     }
     }
- 
+    @media (max-width : 780px){
+        body{
+               font-size: 0.2em;
+               background-color: #0c1022;   
+        }
+        .header{
+            justify-content: space-between;
+        }
+        .logo{
+            display: block;
+        }
+        .navbar a{
+            position: relative;
+            display: flexbox;
+            flex-wrap: wrap;
+            margin: 10px 0;
+            font-size: 19px;
+            color: #e18b22;
+            justify-content: space-around;
+        }
+        .navbar a:hover{
+            color: rgb(245, 241, 241);
+        }
+        .about{
+            font-size: 1.7em;
+        }
+        .about-img img{
+            width:100%;
+    
+        }
+        .about-text h2{
+            font-size: 1.7em;
+        }
+        .about-text h3{
+            font-size: 1.7em;
+        }
+        .about-text p{
+            font-size: 1.7em;
+        }
+        .home-content {
+            max-width: 600px;
+        }
+        .home-content h3 {
+            font-size: 4.0em;
+            font-weight: 400;
+        }
+        .home-content h3 span{
+            color: rgb(226, 241, 11);
+        }
+        .home-content h1 {
+            font-size: 4.0em;
+            font-weight:500;
+            margin: -3px 0;
+    
+        }
+        .home-content h1 span{
+            color: rgb(240, 240, 38);
+        }
+        .home-content p{
+            font-size: 4.0em;
+    
+        }
+        
+      }
